@@ -1,15 +1,33 @@
 body {
-  background-color: aliceblue;
-  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: #333333;
+  text-align: center;
   width: 100%;
   height: 100%;
   margin: 0;
-  text-align: center;
+}
+
+.container {
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 h1 {
-  color: #333333;
+  color: aliceblue;
 }
 h2 {
-  color: #333333;
+  color: aliceblue;
+}
+
+img {
+  border-radius: 100%;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 25px;
+}
+a:hover {
+  color: purple;
+}
+ul {
 }
