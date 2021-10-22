@@ -12,10 +12,12 @@ body {
 
 h1 {
   color: aliceblue;
-  font-family: "Marko One", serif;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 3px;
 }
 h2 {
   color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
@@ -34,4 +36,5 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
