@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @be-rahn, a former science teacher and new student learning web development and UX design. 
 - 👀 I’m interested in space...all things space! 🌌🪐☄
-- 🌱 I’m currently learning coding with MIT xPro and SheCodes.
+- 🌱 I’m currently learning coding with MIT xPro, SheCodes and Skillcrush.
 - 💞️ I’m looking to collaborate on a project to assist in the rebuilding of my hometown, Greenville, CA.
 - 📫 Reach me at brooke.rahn@gmail.com.
 
