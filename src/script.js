@@ -1,14 +1,15 @@
 document.addEventListener("DOMContentLoaded", function (event) {
   // array with texts to type in typewriter
   var dataText = [
-    "About Me",
-    "Studied Space Science 🪐",
-    "and Archaeology 🗿",
-    "Loves Sci-fi 🛸",
-    "and Mythology ⚔",
-    "Enjoys building digital 💻",
+    "I'm a Front-end Developer from California.",
+    "I studied Space Science 🪐",
+    "and Archaeology in college. 🗿",
+    " I love Sci-fi 🛸",
+    "and Mythology. ⚔",
+    "I enjoy creating digital 💻",
     "and analog games 🎲",
-    "About Me",
+    "and creating engaging and responsive web applications.",
+    " I'm a Front-end Developer from California.",
   ];
 
   // type one text in the typwriter
@@ -17,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     // chekc if text isn't finished yet
     if (i < text.length) {
       // add next character to h1
-      document.querySelector("h1").innerHTML =
+      document.querySelector("h2").innerHTML =
         text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
 
       // wait for a while and call this function again for next character
