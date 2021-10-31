@@ -2,13 +2,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // array with texts to type in typewriter
   var dataText = [
     "I'm a Front-end Developer from California.",
-    "I studied Space Science 🪐",
-    "and Archaeology in college. 🗿",
+    "I have degrees in Space Science 🪐",
+    "and Anthropology. 🗿",
     " I love Sci-fi 🛸",
     "and Mythology. ⚔",
     "I enjoy creating digital 💻",
-    "and analog games 🎲",
-    "and creating engaging and responsive web applications.",
+    "and analog games. 🎲",
     " I'm a Front-end Developer from California.",
   ];
 

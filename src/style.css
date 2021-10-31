@@ -91,6 +91,12 @@ h3 {
   margin: 0;
 }
 
+@media (max-width: 800px) {
+  #scrolling-animation {
+    display: none;
+  }
+}
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
