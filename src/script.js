@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     "I'm a Front-end Developer from California.",
     "I have degrees in Space Science 🪐",
     "and Anthropology. 🗿",
-    " I love Sci-fi 🛸",
-    "and Mythology. ⚔",
     "I enjoy creating digital 💻",
     "and analog games. 🎲",
     " I'm a Front-end Developer from California.",

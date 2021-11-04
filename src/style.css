@@ -15,21 +15,17 @@
 }
 
 h1 {
-  font-size: 46px;
+  font-size: 94px;
+  font-weight: bolder;
 }
 
 #my-info {
   font-size: 44px;
 }
 
-.name {
-  font-size: 94px;
-  font-weight: bolder;
-}
-
 h2 {
   color: #4b4b4b;
-  font-size: 24px;
+  font-size: 46px;
 }
 
 .buttons {
@@ -55,6 +51,10 @@ h2 {
   box-shadow: var(--box-shadow);
 }
 
+.contact-me:hover {
+  color: white;
+}
+
 .about {
   color: var(--primary-color);
   border: 1px solid;
@@ -72,6 +72,7 @@ h2 {
   line-height: 1.5;
   margin: 10px;
 }
+
 .email-link {
   color: var(--primary-color);
   font-size: 28px;
@@ -83,18 +84,14 @@ p {
   line-height: 1.5;
 }
 h3 {
-  font-size: 48px;
+  color: #4b4b4b;
+  font-size: 42px;
+  margin-top: 5px;
 }
 h1,
 h2,
 h3 {
   margin: 0;
-}
-
-@media (max-width: 800px) {
-  #scrolling-animation {
-    display: none;
-  }
 }
 
 .row {
@@ -123,6 +120,10 @@ h3 {
   max-width: 200px;
 }
 
+.primary-link:hover {
+  color: white;
+}
+
 #weather-links {
   display: flex;
   justify-content: space-evenly;
@@ -142,4 +143,35 @@ img {
 
 footer {
   text-align: center;
+}
+@media (max-width: 800px) {
+  #scrolling-animation {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-around;
+  }
 }
